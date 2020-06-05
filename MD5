@@ -1,0 +1,17 @@
+cf654dcbde9441a35c42d6de9cae6a10 *DESCRIPTION
+9b89f506ed73b8eb71eb1b534891781b *NAMESPACE
+110b791bf488c1f907c22d0e971c97fb *R/connectionFunctions.R
+e649d8df41f0ac0be2691dd02d99993a *R/dissimilarityIndicesFunctions.R
+065ad0c57fe0304ab57f342c14683c26 *README.md
+d685071ac2cce626e44048ba6875b7de *data/subsetUrbanEnvironmentNancy.RData
+cdc1341186c250d5056ce522daa9fb6a *inst/betadiversityindices.jar
+40dfdfcfbd293d175ef73b1e7e28df37 *inst/repicea.jar
+3be89e51cb39b39e87008750af23110b *java/biodiversity/indices/Chao2Estimator.java
+928756aff02654a1de426b87fa83954a *java/biodiversity/indices/DiversityIndices.java
+0e8ddea060b8eaf55f8e75822f628cdf *java/biodiversity/indices/DiversityIndicesEstimates.java
+08a87e9ee9f3014005cd0b4924e58789 *java/biodiversity/indices/IndexUtility.java
+1d3f63eec56e606a3f975d7774ba0fde *java/biodiversity/indices/MultipleSiteIndex.java
+aba915d5531728abb5a2321d823cdba3 *man/getDissimilarityEstimates.Rd
+1669bd4d6cd49352d5d0a9c8da7baede *man/subsetUrbanEnvironmentNancy.Rd
+b985dec68ee38cea2a5a993e27615353 *tests/testthat.R
+4e3cb94bc1a617edc5cf259efe45eca4 *tests/testthat/testDissimilarityIndices.R
