@@ -2,7 +2,7 @@ Package: betadiv
 Type: Package
 Title: Estimators of Multiple-Site Dissimilarity Indices for the
         Assessment of Beta Diversity
-Version: 1.0.0
+Version: 1.0.1
 Author: Mathieu Fortin, Anna Kondratyeva, Rosalinde Van Couwenberghe
 Maintainer: Mathieu Fortin <mathieu.fortin.re@gmail.com>
 Copyright: Her Majesty the Queen in right of Canada
@@ -14,14 +14,14 @@ Description: Implement the multiple-site dissimilarity indices of Simpson, Soren
     these adapted indices can be found in Fortin et al. (2020) <doi:10.1111/geb.13080>. 
 URL: https://sourceforge.net/p/mrnfforesttools/divindices/wiki/Home/
 Depends: R (>= 3.4.0)
-Imports: J4R (>= 1.0.7)
+Imports: J4R (>= 1.0.8)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 SystemRequirements: Java 8
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2020-06-02 17:14:33 UTC; donenrique
+Packaged: 2020-07-24 13:40:49 UTC; donenrique
 Repository: CRAN
-Date/Publication: 2020-06-05 09:10:03 UTC
+Date/Publication: 2020-07-24 14:10:02 UTC

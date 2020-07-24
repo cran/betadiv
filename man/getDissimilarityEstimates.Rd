@@ -46,7 +46,7 @@ gamma diversity estimate is based on the Chao2 estimator (Chao and Lin 2012).
 \examples{
 
 ### An example using the subsetUrbanEnvironmentNancy dataset ###
-
+\dontrun{
 dataReleves <- betadiv::subsetUrbanEnvironmentNancy
 
 strataList <- unique(dataReleves$Stratum)
@@ -69,7 +69,7 @@ for (stratum in strataList) {
   indices$stratum <- stratum
   output <- rbind(output, indices)
 }
-
+}
 }
 \references{
 Fortin, M., A. Kondratyeva, and R. Van Couwenberghe. 2020. Improved Beta-diversity estimators

@@ -15,13 +15,6 @@
   .welcomeMessage()
 }
 
-# .onUnload <- function(libpath) {
-#   shutdownJava()
-# }
-#
-# .onDetach <- function(libpath) {
-#   shutdownJava()
-# }
 
 
 .addToArray <- function(refArray, array) {
@@ -59,7 +52,7 @@
 
 .loadREpicea <- function() {
   if (!J4R::checkIfClasspathContains("repicea.jar")) {
-    J4R::addUrlToClassPath("repicea.jar", packageName = "betadiv")
+    J4R::addToClassPath("repicea.jar", packageName = "betadiv")
   }
 }
 
@@ -74,7 +67,7 @@
 
 .loadBetadiv <- function() {
   if (!J4R::checkIfClasspathContains("betadiversityindices.jar")) {
-    J4R::addUrlToClassPath("betadiversityindices.jar", packageName = "betadiv")
+    J4R::addToClassPath("betadiversityindices.jar", packageName = "betadiv")
   }
 }
 

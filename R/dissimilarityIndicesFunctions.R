@@ -88,7 +88,7 @@
 #' @examples
 #'
 #' ### An example using the subsetUrbanEnvironmentNancy dataset ###
-#'
+#' \dontrun{
 #' dataReleves <- betadiv::subsetUrbanEnvironmentNancy
 #'
 #' strataList <- unique(dataReleves$Stratum)
@@ -111,7 +111,7 @@
 #'   indices$stratum <- stratum
 #'   output <- rbind(output, indices)
 #' }
-#'
+#' }
 #' @references Fortin, M., A. Kondratyeva, and R. Van Couwenberghe. 2020. Improved Beta-diversity estimators
 #' based on multiple-site dissimilarity: Distinguishing the sample from the population. Global Ecology and
 #' Biogeography 29: 1073-1084. \url{https://doi.org/10.1111/geb.13080}

@@ -3,6 +3,8 @@
 # Mathieu Fortin - April 2019
 ############################################
 
+library(betadiv)
+
 dataReleves <- betadiv::subsetUrbanEnvironmentNancy
 
 strataList <- unique(dataReleves$Stratum)
@@ -51,3 +53,4 @@ test_that("Testing forests", {
 })
 
 J4R::shutdownJava()
+
